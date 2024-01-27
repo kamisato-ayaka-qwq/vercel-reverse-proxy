@@ -1,7 +1,7 @@
 {
   "rewrites": [
 
-    { "source": "http://blog.ayaka0.top/proxy/:match/:url*/", "destination": "http://bk.ayaka0.top/" },
+    { "source": "http://blog.ayaka0.top/proxy/http://bk.ayaka0.top/", "destination": "http://bk.ayaka0.top/" },
     { "source": "/httpproxy/:match/:url*", "destination": "http://:match/:url*" },
     { "source": "/httpproxy/:match/:url*/", "destination": "http://:match/:url*/" }
   ]
